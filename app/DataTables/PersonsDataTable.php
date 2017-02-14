@@ -44,17 +44,17 @@ class PersonsDataTable extends DataTable
 
                 // if job_phone set add to result string
                 if ($row->job_phone) {
-                    $res .= ' Рабочий талафон: '.$row->personal_phone;
+                    $res .= ' Рабочий талафон: '.$row->job_phone;
                 }
 
                 // if personal_email set add to result string
                 if ($row->personal_email) {
-                    $res .= ' Личный email: '.$row->personal_phone;
+                    $res .= ' Личный email: '.$row->personal_email;
                 }
 
                 // if job_email set add to result string
-                if ($row->job_phone) {
-                    $res .= ' Рабочий email: '.$row->personal_phone;
+                if ($row->job_email) {
+                    $res .= ' Рабочий email: '.$row->job_email;
                 }
 
                 return $res;
