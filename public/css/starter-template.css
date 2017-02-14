@@ -1,0 +1,10 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.dataTables_wrapper .dt-buttons .btn{
+  margin-right: 5px;
+}
